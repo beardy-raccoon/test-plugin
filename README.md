@@ -20,5 +20,3 @@ After that you can see output in 'dist' directory:
 ## How to use plugin
 
 Plugin can be embedded into any application through the window object.
-
-

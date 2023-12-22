@@ -3,8 +3,15 @@ import { createRoot } from "react-dom/client";
 import { App } from "@/App";
 import "./index.css";
 
-if (import.meta.env.MODE !== "development") {
-  // Handle development mode rendering
+if (import.meta.env.MODE === "development") {
+  /* Handle development mode rendering
+  const renderElement = document.getElementById("root");
+  createRoot(renderElement  as  HTMLElement).render(
+    <App
+      options={{
+        ...someOPtionsOnlyForDev
+      }}
+    />*/
 } else {
   window.DAMAGE_SELECTOR_API = {
     init: (options: DamageSelectorProps["options"]) => {
