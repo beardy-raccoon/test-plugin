@@ -1,0 +1,94 @@
+.damage-selector {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 768px;
+  height: 490px;
+  background-color: #f9f9f9;
+  background-image: url(https://as1.ftcdn.net/v2/jpg/00/51/96/30/1000_F_51963003_G2Vo03cmNUgoYWKIdIAnlhcWnFN858HC.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: -10px;
+  background-position-y: -10px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 390px;
+  margin-top: 30px;
+}
+
+.container div:nth-child(2) {
+  margin-top: 140px;
+  justify-content: flex-start;
+}
+
+.container div:nth-child(3) {
+  margin-top: 130px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row:nth-of-type(2) button:nth-child(2) {
+  margin-left: 90px;
+}
+
+.row:nth-of-type(2) button:nth-child(3) {
+  margin-left: 250px;
+}
+
+.row:nth-of-type(2) button:nth-child(4) {
+  margin-left: 190px;
+}
+
+.row:nth-of-type(2) button:nth-child(5) {
+  margin-left: 30px;
+}
+
+.button {
+  border-radius: 30px;
+  min-height: 30px;
+  min-width: 30px;
+  padding: 0;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #000;
+  background-color: #fff;
+  outline: 2px solid black;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+.button:hover {
+  opacity: 0.7;
+}
+
+.button:focus,
+.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button-active {
+  background-color: orange;
+}
+
+.submit-button {
+  margin-top: 1px;
+  width: 80%;
+  height: 60px;
+  border-radius: 15px;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #fff;
+  background-color: navy;
+}
